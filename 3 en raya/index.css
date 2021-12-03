@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  font-size: 100%;
+}
+
+/*********************************
+body
+*********************************/
+
+body {
+  font-family: Verdana;
+  position: relative;
+  display: block;
+  text-align: none;
+  padding: 50px;
+    
+}
+
+.fichas {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+#ficha1 {
+  display:; none;
+}
+
+#text {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#fichaIn {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 25px;
+}
+
+#mensajeInputF{
+  font-size: 15px;
+}
+
+#casillaIn {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  height: 20px;
+  font-size: 20px;
+}
+
+/*********************************
+parrafos
+*********************************/
+#mensajeGanador {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.p {
+  color: #D5D5D5;
+  padding-bottom: 30px;
+  font-style: italic;
+}
+
+/*********************************
+section
+*********************************/
+
+#section1 {
+  max-width: 555px;
+  min-width: 555px;
+  margin: 0 auto;
+  padding: 0px 0px 0px 330px;
+  float: left;
+}
+
+#section2 {
+  max-width: 555px;
+  min-width: 555px;
+  margin: 0 auto;
+  padding: 100px 0px 0px 330px;
+  float: right;
+}
+
+/*********************************
+grid
+*********************************/
+
+.cuadricula {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: auto auto auto;
+  text-transform: uppercase;
+  background-color: #111111;
+  padding: 3px;
+  
+}
+
+.casillas {
+  background-color: rgba(255, 255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+/*********************************
+container
+*********************************/
+
+.container {
+  position: absolute, fixed;
+  top: 180px;
+  right: 250px;
+}
+
+/*********************************
+botones
+*********************************/
+
+#restartBut {
+  padding-top: 30px;
+}
+
+#submit {
+  position: left;
+}
+
+.buttons:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #555555;
+  color: white;
+}
+
+.buttons {
+  background-color: #e7e7e7; color: black;
+  border-radius: 8px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+/*********************************
+funciones
+*********************************/
+
+#start {
+    display: block;
+}
+
+#next {
+  display: block;
+}
+
+#restart {
+    display: block;
+}  
+
+#mensaje1 {
+  font-size: 100px;
+  clear: both;
+}
+
+/*********************************
+footer
+*********************************/
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+
+}
+

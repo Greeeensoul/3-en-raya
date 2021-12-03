@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Carolina Hernandez">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="3enraya0.2.js"></script>
+</head>
+<body id="body">
+    <section id="section1">
+    
+    <h1 text-align: center>TIC TAC TOE</h1>         
+    <div class="cuadricula">
+        <div class="casillas">
+            <input class="fichas" id="ficha1" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c1">
+        </div>
+        <div class="casillas">
+            <input class="fichas" id="ficha2" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c2">
+        </div>
+        <div class="casillas">
+            <input class="fichas" id="ficha3" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c3">
+        </div>  
+        <div class="casillas">
+            <input class="fichas" id="ficha4" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c4">
+        </div>
+        <div class="casillas">
+            <input class="fichas" id="ficha5" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c5">
+        </div>
+        <div class="casillas">
+            <input class="fichas" id="ficha6" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c6">
+        </div>  
+        <div class="casillas">
+            <input class="fichas" id="ficha7" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c7">
+        </div>
+        <div class="casillas">
+            <input class="fichas" id="ficha8" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c8">
+        </div>
+        <div class="casillas">
+            <input class="fichas" id="ficha9" type="text" name="ficha" maxlength="1">
+            <p class="casilla" id="c9">
+        </div>    
+    </div>
+    <p id="mensajeGanador"></p>
+    <div id="restartBut">
+        <!-- <button class="buttons" id="start" onclick="start()">START</button> -->
+        <!-- <button class="buttons" id="next" onclick="next()">NEXT</button> -->
+        <button class="buttons" id="restart" onclick="restart()">RESTART</button>
+    </div>
+    </section>
+    <section id="section2">
+        <!-- <p id="cuadricula"></p> -->
+        <p id="mensajePause"></p>
+        <div class="container">
+            <div class="formInput">
+                <label id="text">
+                    TOKEN:
+                </label>
+                <input id="fichaX" type="radio" name="ficha"  value="x" checked> 
+                <label for="fichaX">
+                    X
+                </label>
+                <input id="fichaO" type="radio" name="ficha"  value="o"> 
+                <label for="fichaO">
+                    O
+                </label>
+                <p id="mensajeInputF">
+                    _
+                </p>
+                <label id="text">
+                    BOX (1-9):
+                </label>
+                <input type="number" id="casillaIn" name="casilla" min="1" max="9" size="10" value="1" required>
+                <p id="mensajeInputC">_</p> 
+                <button class="buttons" id="submit" onkeypress="enter()" onclick="submit()">
+                    SUBMIT
+                </button>
+            </div>
+            <div class="p">    
+                <p id="informacionF">//Tokens to choose: x, o. (Empieza x)</p>
+                <p id="informacionC">//Boxes to choose: </br>c1  c2  c3</br>c4  c5  c6</br>c7  c8  c9</p>
+            </div>
+        </div>
+        </section>
+            <footer id="footer">
+            <p>&copy; 2020 Carolina Hernández</p>
+            </footer>
+</body>
+</html>
